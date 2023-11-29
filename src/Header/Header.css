@@ -1,0 +1,78 @@
+/* Add this CSS to your stylesheet */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #fff; /* Set your desired background color */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
+  }
+  
+  .logo_container {
+    flex-shrink: 0; /* Prevent the logo from shrinking */
+  }
+  
+  .Ecommmerce_home {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .nav_bar {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .nav_bar a {
+    text-decoration: none;
+    color: #333; /* Set your desired text color */
+    font-weight: bold;
+  }
+  
+  .search_bar {
+    display: flex;
+    align-items: center;
+    background-color: #f4f4f4; /* Set your desired background color */
+    border-radius: 5px;
+    padding: 5px;
+  }
+  
+  .search_icon {
+    margin-right: 5px;
+  }
+  
+  .search_input {
+    border: none;
+    outline: none;
+    padding: 5px;
+    font-size: 14px;
+  }
+  
+  .action_bar {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .action_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .action_name {
+    font-size: 12px;
+    margin-top: 5px;
+  }
+  
+  .bag-item-count {
+    background-color: #ff4500; /* Set your desired background color */
+    color: #fff; /* Set your desired text color */
+    border-radius: 50%;
+    padding: 3px 6px;
+    font-size: 10px;
+    margin-bottom: 17px;
+  }
+    .Ecommmerce_home {
+      height: 45px;
+    }
+  
